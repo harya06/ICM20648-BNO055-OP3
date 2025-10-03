@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/devel
+
+Name: op3_gazebo
+Description: Description of op3_gazebo
+Version: 0.1.1
+Cflags: 
+Libs: -L/home/robotis/catkin_ws/devel/lib 
+Requires: 

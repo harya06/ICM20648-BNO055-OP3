@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/install
+
+Name: humanoid_planner_2d
+Description: Description of humanoid_planner_2d
+Version: 0.4.2
+Cflags: -I/home/robotis/catkin_ws/install/include -I/opt/ros/kinetic/include
+Libs: -L/home/robotis/catkin_ws/install/lib -lhumanoid_planner_2d -lsbpl
+Requires: roscpp geometry_msgs visualization_msgs gridmap_2d

@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/devel_isolated/ps_controller
+
+Name: ps_controller
+Description: Description of ps_controller
+Version: 0.0.0
+Cflags: -I/home/robotis/catkin_ws/src/ps_controller/include
+Libs: -L/home/robotis/catkin_ws/devel_isolated/ps_controller/lib 
+Requires: roscpp sensor_msgs std_msgs

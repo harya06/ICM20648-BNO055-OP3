@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/install
+
+Name: dynamixel_sdk
+Description: Description of dynamixel_sdk
+Version: 3.6.2
+Cflags: -I/home/robotis/catkin_ws/install/include
+Libs: -L/home/robotis/catkin_ws/install/lib -ldynamixel_sdk
+Requires: roscpp rospy

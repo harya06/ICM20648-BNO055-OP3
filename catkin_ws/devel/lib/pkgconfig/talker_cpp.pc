@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/devel
+
+Name: talker_cpp
+Description: Description of talker_cpp
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/robotis/catkin_ws/devel/lib -ltalker_cpp
+Requires: roscpp std_msgs

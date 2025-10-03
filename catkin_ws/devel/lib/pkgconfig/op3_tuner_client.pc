@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/devel
+
+Name: op3_tuner_client
+Description: Description of op3_tuner_client
+Version: 0.1.0
+Cflags: -I/home/robotis/catkin_ws/src/ROBOTIS-OP3-Tools/op3_tuner_client/include -I/home/robotis/catkin_ws/src/ROBOTIS-OP3-Tools/op3_tuner_client/include/op3_tuner_client -I/home/robotis/catkin_ws/devel/include/op3_tuner_client
+Libs: -L/home/robotis/catkin_ws/devel/lib -lop3_tuner_client
+Requires: rqt_gui rqt_gui_cpp roscpp roslib std_msgs op3_tuning_module_msgs

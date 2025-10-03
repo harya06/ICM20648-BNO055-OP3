@@ -1,0 +1,17 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~imageInput" : \b [str] Subscribe to this image topic min: , default: /camera/image_raw, max: 
+- \b "~imageOutput" : \b [str] Publish to this image topic min: , default: /facerec/image_raw, max: 
+- \b "~skipFrames" : \b [int] Skip frames that are used for detection min: 1, default: 1, max: 20
+- \b "~imgScale" : \b [double] Select a scaling factor for the detection image min: -std::numeric_limits<double>::infinity(), default: 0.625, max: std::numeric_limits<double>::infinity()
+- \b "~displayed_Image" : \b [int] Select type of debugging min: -2147483648, default: 3, max: 2147483647
+- \b "~publish" : \b [int] Select what is published min: -2147483648, default: 0, max: 2147483647
+- \b "~pixelSwitch" : \b [int] Select a detection display type min: -2147483648, default: 0, max: 2147483647
+- \b "~contrastFactor" : \b [double] The contrast factor applied to the image to improve detection min: 0.2, default: 1.5, max: 2.5
+- \b "~histOnOff" : \b [int] Select a detection display type min: -2147483648, default: 0, max: 2147483647
+- \b "~blurFactor" : \b [int] blurs the image a little, used to reduce noise on full resolution images (imageScaleValue = 1) min: 0, default: 0, max: 10
+- \b "~brightnessFactor" : \b [int] brightens up the image min: 0, default: 0, max: 5
+- \b "~inputSkipp" : \b [int] start skipping frames from the input after X frames, generally use '1' for realtime feedback, or much higher values for saving image sequences to disk min: 1, default: 1, max: 10000
+

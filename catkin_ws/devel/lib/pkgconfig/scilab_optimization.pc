@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/devel
+
+Name: scilab_optimization
+Description: Description of scilab_optimization
+Version: 0.0.0
+Cflags: -I/home/robotis/catkin_ws/src/ROBOTIS-Optimization/scilab_optimization/include
+Libs: -L/home/robotis/catkin_ws/devel/lib -lscilab_optimization
+Requires: roscpp

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/robotis/catkin_ws/devel_isolated/op3_camera_setting_tool/setup.sh

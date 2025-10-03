@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/install
+
+Name: op3_navigation
+Description: Description of op3_navigation
+Version: 0.2.2
+Cflags: 
+Libs: -L/home/robotis/catkin_ws/install/lib 
+Requires: 

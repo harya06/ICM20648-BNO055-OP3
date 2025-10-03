@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/install
+
+Name: robotis_math
+Description: Description of robotis_math
+Version: 0.2.6
+Cflags: -I/home/robotis/catkin_ws/install/include -I/usr/include/eigen3
+Libs: -L/home/robotis/catkin_ws/install/lib -lrobotis_math
+Requires: roscpp

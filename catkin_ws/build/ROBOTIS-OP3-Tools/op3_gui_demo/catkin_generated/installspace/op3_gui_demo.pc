@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/install
+
+Name: op3_gui_demo
+Description: Description of op3_gui_demo
+Version: 0.3.0
+Cflags: -I/home/robotis/catkin_ws/install/include
+Libs: -L/home/robotis/catkin_ws/install/lib -lop3_gui_demo
+Requires: rqt_gui rqt_gui_cpp roscpp roslib std_msgs sensor_msgs geometry_msgs visualization_msgs interactive_markers cmake_modules eigen_conversions robotis_controller_msgs op3_walking_module_msgs op3_online_walking_module_msgs humanoid_nav_msgs

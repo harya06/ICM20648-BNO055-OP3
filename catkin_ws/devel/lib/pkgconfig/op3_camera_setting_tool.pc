@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/devel
+
+Name: op3_camera_setting_tool
+Description: Description of op3_camera_setting_tool
+Version: 0.2.2
+Cflags: -I/home/robotis/catkin_ws/devel/include -I/home/robotis/catkin_ws/src/ROBOTIS-OP3-Tools/op3_camera_setting_tool/include -I/usr/include
+Libs: -L/home/robotis/catkin_ws/devel/lib /usr/lib/x86_64-linux-gnu/libboost_thread.so /usr/lib/x86_64-linux-gnu/libboost_chrono.so /usr/lib/x86_64-linux-gnu/libboost_system.so /usr/lib/x86_64-linux-gnu/libboost_date_time.so /usr/lib/x86_64-linux-gnu/libboost_atomic.so /usr/lib/x86_64-linux-gnu/libpthread.so
+Requires: roscpp roslib std_msgs dynamic_reconfigure message_runtime

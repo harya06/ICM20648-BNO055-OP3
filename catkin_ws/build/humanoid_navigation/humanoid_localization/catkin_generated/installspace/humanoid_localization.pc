@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/install
+
+Name: humanoid_localization
+Description: Description of humanoid_localization
+Version: 0.4.2
+Cflags: -I/home/robotis/catkin_ws/install/include -I/usr/include -I/usr/include/eigen3
+Libs: -L/home/robotis/catkin_ws/install/lib -lmapmodel -lmotionmodel -lobservationmodel -lraycastingmodel -lhumanoidlocalization /usr/lib/x86_64-linux-gnu/libboost_random.so /usr/lib/x86_64-linux-gnu/libboost_system.so
+Requires: roscpp std_msgs std_srvs sensor_msgs geometry_msgs octomap_msgs visualization_msgs cmake_modules tf message_filters octomap_ros pcl_ros pcl_conversions

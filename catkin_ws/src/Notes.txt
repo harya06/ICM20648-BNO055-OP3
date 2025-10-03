@@ -1,0 +1,26 @@
+Letak Program BNO055
+/home/robotis/catkin_ws/src/ROBOTIS-OP3/bno055_imu
+
+Letak Program Open CR
+/home/robotis/catkin_ws/src/ROBOTIS-OP3/open_cr_module
+
+Letak Program Switch IMU BNO055/Open CR
+/home/robotis/catkin_ws/src/ROBOTIS-OP3/op3_walking_module
+
+Letak Program Jalan Maju
+>library
+/home/robotis/catkin_ws/src/ROBOTIS-OP3-Demo/op3_demo/include/op3_demo
+>main program
+/home/robotis/catkin_ws/src/ROBOTIS-OP3-Demo/op3_demo/src/move_forwart
+
+Letak Program Jalan Maju Serong Kanan
+>library
+/home/robotis/catkin_ws/src/ROBOTIS-OP3-Demo/op3_demo/include/op3_demo
+>main program
+/home/robotis/catkin_ws/src/ROBOTIS-OP3-Demo/op3_demo/src/move_forwart_side
+
+Letak Program Jalan Memutar
+>library
+/home/robotis/catkin_ws/src/ROBOTIS-OP3-Demo/op3_demo/include/op3_demo
+>main program
+/home/robotis/catkin_ws/src/ROBOTIS-OP3-Demo/op3_demo/src/move_forwart_rotate

@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/install
+
+Name: op3_kinematics_dynamics
+Description: Description of op3_kinematics_dynamics
+Version: 0.2.1
+Cflags: -I/home/robotis/catkin_ws/install/include -I/usr/include/eigen3
+Libs: -L/home/robotis/catkin_ws/install/lib -lop3_kinematics_dynamics
+Requires: roscpp robotis_math cmake_modules

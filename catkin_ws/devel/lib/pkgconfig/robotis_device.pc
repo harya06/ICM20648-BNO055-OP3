@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/devel
+
+Name: robotis_device
+Description: Description of robotis_device
+Version: 0.2.9
+Cflags: -I/home/robotis/catkin_ws/src/ROBOTIS-Framework/robotis_device/include
+Libs: -L/home/robotis/catkin_ws/devel/lib -lrobotis_device
+Requires: roscpp dynamixel_sdk

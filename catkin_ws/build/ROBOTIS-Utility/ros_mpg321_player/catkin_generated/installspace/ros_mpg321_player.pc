@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/install
+
+Name: ros_mpg321_player
+Description: Description of ros_mpg321_player
+Version: 0.1.3
+Cflags: -I/home/robotis/catkin_ws/install/include
+Libs: -L/home/robotis/catkin_ws/install/lib 
+Requires: roscpp std_msgs

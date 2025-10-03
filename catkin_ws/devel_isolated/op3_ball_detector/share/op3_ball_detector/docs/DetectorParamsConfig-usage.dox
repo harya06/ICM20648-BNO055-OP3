@@ -1,0 +1,29 @@
+\subsubsection usage Usage
+\verbatim
+<node name="ball_detector_node" pkg="op3_ball_detector" type="ball_detector_node">
+  <param name="gaussian_blur_size" type="int" value="7" />
+  <param name="gaussian_blur_sigma" type="double" value="2.0" />
+  <param name="canny_edge_th" type="double" value="50.0" />
+  <param name="hough_accum_resolution" type="double" value="2.0" />
+  <param name="min_circle_dist" type="double" value="40.0" />
+  <param name="hough_accum_th" type="double" value="15.0" />
+  <param name="min_radius" type="int" value="20" />
+  <param name="max_radius" type="int" value="150" />
+  <param name="filter_h_min" type="int" value="180" />
+  <param name="filter_h_max" type="int" value="245" />
+  <param name="filter_s_min" type="int" value="200" />
+  <param name="filter_s_max" type="int" value="255" />
+  <param name="filter_v_min" type="int" value="50" />
+  <param name="filter_v_max" type="int" value="255" />
+  <param name="use_second_filter" type="bool" value="False" />
+  <param name="filter2_h_min" type="int" value="160" />
+  <param name="filter2_h_max" type="int" value="255" />
+  <param name="filter2_s_min" type="int" value="0" />
+  <param name="filter2_s_max" type="int" value="55" />
+  <param name="filter2_v_min" type="int" value="180" />
+  <param name="filter2_v_max" type="int" value="255" />
+  <param name="ellipse_size" type="int" value="2" />
+  <param name="debug_image" type="bool" value="False" />
+</node>
+\endverbatim
+

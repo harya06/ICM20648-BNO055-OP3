@@ -1,0 +1,17 @@
+\subsubsection usage Usage
+\verbatim
+<node name="op3_camera_setting_tool" pkg="op3_camera_setting_tool" type="op3_camera_setting_tool">
+  <param name="brightness" type="int" value="128" />
+  <param name="contrast" type="int" value="128" />
+  <param name="saturation" type="int" value="128" />
+  <param name="sharpness" type="int" value="128" />
+  <param name="gain" type="int" value="0" />
+  <param name="focus_auto" type="bool" value="False" />
+  <param name="focus_absolute" type="int" value="-1" />
+  <param name="exposure_auto" type="int" value="3" />
+  <param name="exposure_absolute" type="int" value="80" />
+  <param name="white_balance_temperature_auto" type="bool" value="True" />
+  <param name="white_balance_temperature" type="int" value="4000" />
+</node>
+\endverbatim
+

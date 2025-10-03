@@ -1,0 +1,24 @@
+\subsubsection usage Usage
+\verbatim
+<node name="face_detection" pkg="face_detection" type="face_detection">
+  <param name="imageInput" type="str" value="/camera/image_raw" />
+  <param name="imageOutput" type="str" value="/facerec/image_raw" />
+  <param name="skipFrames" type="int" value="1" />
+  <param name="imgScale" type="double" value="0.625" />
+  <param name="neighborsValue" type="int" value="2" />
+  <param name="scaleValue" type="double" value="1.2" />
+  <param name="minSize" type="int" value="40" />
+  <param name="maxSize" type="int" value="200" />
+  <param name="cascadeValue" type="int" value="2" />
+  <param name="myflag" type="int" value="2" />
+  <param name="displayed_Image" type="int" value="3" />
+  <param name="publish" type="int" value="0" />
+  <param name="pixelSwitch" type="int" value="0" />
+  <param name="contrastFactor" type="double" value="1.5" />
+  <param name="histOnOff" type="int" value="0" />
+  <param name="blurFactor" type="int" value="0" />
+  <param name="brightnessFactor" type="int" value="0" />
+  <param name="inputSkipp" type="int" value="1" />
+</node>
+\endverbatim
+

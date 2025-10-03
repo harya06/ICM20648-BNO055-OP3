@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/devel
+
+Name: bno055_imu
+Description: Description of bno055_imu
+Version: 0.0.0
+Cflags: -I/home/robotis/catkin_ws/src/ROBOTIS-OP3/bno055_imu/include
+Libs: -L/home/robotis/catkin_ws/devel/lib 
+Requires: roscpp std_msgs sensor_msgs

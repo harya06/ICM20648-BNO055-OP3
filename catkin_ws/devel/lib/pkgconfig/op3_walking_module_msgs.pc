@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/devel
+
+Name: op3_walking_module_msgs
+Description: Description of op3_walking_module_msgs
+Version: 0.1.1
+Cflags: -I/home/robotis/catkin_ws/devel/include
+Libs: -L/home/robotis/catkin_ws/devel/lib 
+Requires: std_msgs message_runtime

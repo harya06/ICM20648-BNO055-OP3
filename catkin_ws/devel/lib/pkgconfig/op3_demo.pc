@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/devel
+
+Name: op3_demo
+Description: Description of op3_demo
+Version: 0.1.0
+Cflags: -I/home/robotis/catkin_ws/src/ROBOTIS-OP3-Demo/op3_demo/include -I/usr/include -I/usr/include/eigen3
+Libs: -L/home/robotis/catkin_ws/devel/lib /usr/lib/x86_64-linux-gnu/libboost_thread.so /usr/lib/x86_64-linux-gnu/libboost_chrono.so /usr/lib/x86_64-linux-gnu/libboost_system.so /usr/lib/x86_64-linux-gnu/libboost_date_time.so /usr/lib/x86_64-linux-gnu/libboost_atomic.so /usr/lib/x86_64-linux-gnu/libpthread.so
+Requires: roscpp roslib std_msgs sensor_msgs geometry_msgs robotis_controller_msgs op3_walking_module_msgs op3_action_module_msgs cmake_modules robotis_math op3_ball_detector serial

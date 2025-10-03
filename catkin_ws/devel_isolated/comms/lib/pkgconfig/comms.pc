@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/devel_isolated/comms
+
+Name: comms
+Description: Description of comms
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/robotis/catkin_ws/devel_isolated/comms/lib 
+Requires: 

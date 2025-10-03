@@ -1,0 +1,2 @@
+set(op3_tuning_module_msgs_MESSAGE_FILES "/home/robotis/catkin_ws/src/ROBOTIS-OP3-msgs/op3_tuning_module_msgs/msg/JointOffsetData.msg;/home/robotis/catkin_ws/src/ROBOTIS-OP3-msgs/op3_tuning_module_msgs/msg/JointOffsetPositionData.msg;/home/robotis/catkin_ws/src/ROBOTIS-OP3-msgs/op3_tuning_module_msgs/msg/JointTorqueOnOff.msg;/home/robotis/catkin_ws/src/ROBOTIS-OP3-msgs/op3_tuning_module_msgs/msg/JointTorqueOnOffArray.msg")
+set(op3_tuning_module_msgs_SERVICE_FILES "/home/robotis/catkin_ws/src/ROBOTIS-OP3-msgs/op3_tuning_module_msgs/srv/GetPresentJointOffsetData.srv")

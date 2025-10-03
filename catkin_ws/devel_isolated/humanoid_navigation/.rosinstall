@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/robotis/catkin_ws/devel_isolated/humanoid_navigation/setup.sh

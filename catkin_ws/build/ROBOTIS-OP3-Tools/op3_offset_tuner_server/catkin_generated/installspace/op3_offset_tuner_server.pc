@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/install
+
+Name: op3_offset_tuner_server
+Description: Description of op3_offset_tuner_server
+Version: 0.2.2
+Cflags: -I/home/robotis/catkin_ws/install/include
+Libs: -L/home/robotis/catkin_ws/install/lib 
+Requires: roscpp std_msgs op3_offset_tuner_msgs dynamixel_sdk robotis_controller op3_base_module

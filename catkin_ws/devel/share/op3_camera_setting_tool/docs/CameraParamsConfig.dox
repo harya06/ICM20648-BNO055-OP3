@@ -1,0 +1,16 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~brightness" : \b [int] Brightness min: 0, default: 128, max: 255
+- \b "~contrast" : \b [int] Contrast min: 0, default: 128, max: 255
+- \b "~saturation" : \b [int] Saturation min: 0, default: 128, max: 255
+- \b "~sharpness" : \b [int] Sharpness min: 0, default: 128, max: 255
+- \b "~gain" : \b [int] Gain min: 0, default: 0, max: 255
+- \b "~focus_auto" : \b [bool] Auto focus min: False, default: False, max: True
+- \b "~focus_absolute" : \b [int] Absolute Focus min: -1, default: -1, max: 255
+- \b "~exposure_auto" : \b [int] Auto Exposure min: 0, default: 3, max: 3
+- \b "~exposure_absolute" : \b [int] Absolute Exposure min: 0, default: 80, max: 255
+- \b "~white_balance_temperature_auto" : \b [bool] Auto White Balance min: False, default: True, max: True
+- \b "~white_balance_temperature" : \b [int] White Balance Temperature min: 2000, default: 4000, max: 6500
+

@@ -1,0 +1,28 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~gaussian_blur_size" : \b [int] Size of Gaussian Blur Kernel (odd value!) min: 1, default: 7, max: 11
+- \b "~gaussian_blur_sigma" : \b [double] Std deviation of Gaussian Blur Kernel min: 1.0, default: 2.0, max: 5.0
+- \b "~canny_edge_th" : \b [double] Threshold of the edge detector min: 50.0, default: 50.0, max: 200.0
+- \b "~hough_accum_resolution" : \b [double] Resolution of the Hough accumulator, in terms of inverse ratio of image resolution min: 1.0, default: 2.0, max: 8.0
+- \b "~min_circle_dist" : \b [double] Minimum distance between circles min: 10.0, default: 40.0, max: 200.0
+- \b "~hough_accum_th" : \b [double] Accumulator threshold to decide circle detection min: 10.0, default: 15.0, max: 200.0
+- \b "~min_radius" : \b [int] Minimum circle radius allowed min: 10, default: 20, max: 200
+- \b "~max_radius" : \b [int] Maximum circle radius allowed min: 100, default: 150, max: 600
+- \b "~filter_h_min" : \b [int] Threshold of H filter min: 0, default: 180, max: 359
+- \b "~filter_h_max" : \b [int] Threshold of H filter min: 0, default: 245, max: 359
+- \b "~filter_s_min" : \b [int] Threshold of S filter min: 0, default: 200, max: 255
+- \b "~filter_s_max" : \b [int] Threshold of S filter min: 0, default: 255, max: 255
+- \b "~filter_v_min" : \b [int] Threshold of V filter min: 0, default: 50, max: 255
+- \b "~filter_v_max" : \b [int] Threshold of V filter min: 0, default: 255, max: 255
+- \b "~use_second_filter" : \b [bool] Use second filter min: False, default: False, max: True
+- \b "~filter2_h_min" : \b [int] Threshold of H filter min: 0, default: 160, max: 359
+- \b "~filter2_h_max" : \b [int] Threshold of H filter min: 0, default: 255, max: 359
+- \b "~filter2_s_min" : \b [int] Threshold of S filter min: 0, default: 0, max: 255
+- \b "~filter2_s_max" : \b [int] Threshold of S filter min: 0, default: 55, max: 255
+- \b "~filter2_v_min" : \b [int] Threshold of V filter min: 0, default: 180, max: 255
+- \b "~filter2_v_max" : \b [int] Threshold of V filter min: 0, default: 255, max: 255
+- \b "~ellipse_size" : \b [int] Ellipse size min: 1, default: 2, max: 9
+- \b "~debug_image" : \b [bool] Show filtered image to debug min: False, default: False, max: True
+

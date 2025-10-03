@@ -1,0 +1,2 @@
+set(op3_camera_setting_tool_MESSAGE_FILES "/home/robotis/catkin_ws/src/ROBOTIS-OP3-Tools/op3_camera_setting_tool/msg/V4lParameter.msg;/home/robotis/catkin_ws/src/ROBOTIS-OP3-Tools/op3_camera_setting_tool/msg/V4lParameters.msg;/home/robotis/catkin_ws/src/ROBOTIS-OP3-Tools/op3_camera_setting_tool/msg/CameraParams.msg")
+set(op3_camera_setting_tool_SERVICE_FILES "/home/robotis/catkin_ws/src/ROBOTIS-OP3-Tools/op3_camera_setting_tool/srv/GetParameters.srv;/home/robotis/catkin_ws/src/ROBOTIS-OP3-Tools/op3_camera_setting_tool/srv/SetParameters.srv")

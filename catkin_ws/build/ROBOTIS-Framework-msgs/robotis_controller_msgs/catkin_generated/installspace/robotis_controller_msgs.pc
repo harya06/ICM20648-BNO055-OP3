@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/install
+
+Name: robotis_controller_msgs
+Description: Description of robotis_controller_msgs
+Version: 0.1.4
+Cflags: -I/home/robotis/catkin_ws/install/include
+Libs: -L/home/robotis/catkin_ws/install/lib 
+Requires: std_msgs sensor_msgs message_runtime

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/robotis/catkin_ws/devel_isolated/robotis_op3_demo/setup.sh

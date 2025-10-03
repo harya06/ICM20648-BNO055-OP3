@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/robotis/catkin_ws/devel_isolated/ros_mpg321_player/setup.sh

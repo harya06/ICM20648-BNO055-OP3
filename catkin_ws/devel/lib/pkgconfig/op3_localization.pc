@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/devel
+
+Name: op3_localization
+Description: Description of op3_localization
+Version: 0.2.1
+Cflags: -I/home/robotis/catkin_ws/src/ROBOTIS-OP3/op3_localization/include -I/usr/include -I/usr/include/eigen3
+Libs: -L/home/robotis/catkin_ws/devel/lib -lop3_localization /usr/lib/x86_64-linux-gnu/libboost_thread.so /usr/lib/x86_64-linux-gnu/libboost_chrono.so /usr/lib/x86_64-linux-gnu/libboost_system.so /usr/lib/x86_64-linux-gnu/libboost_date_time.so /usr/lib/x86_64-linux-gnu/libboost_atomic.so /usr/lib/x86_64-linux-gnu/libpthread.so
+Requires: roscpp std_msgs sensor_msgs geometry_msgs cmake_modules tf eigen_conversions robotis_math

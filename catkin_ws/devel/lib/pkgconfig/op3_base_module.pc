@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_ws/devel
+
+Name: op3_base_module
+Description: Description of op3_base_module
+Version: 0.2.1
+Cflags: -I/home/robotis/catkin_ws/src/ROBOTIS-OP3/op3_base_module/include -I/usr/include -I/usr/include/eigen3
+Libs: -L/home/robotis/catkin_ws/devel/lib -lop3_base_module
+Requires: roscpp roslib std_msgs geometry_msgs robotis_controller_msgs cmake_modules robotis_framework_common robotis_device robotis_math op3_kinematics_dynamics
