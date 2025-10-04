@@ -1,0 +1,14 @@
+<launch>
+  <node name="bno055_imu_node" pkg="bno055_imu" type="bno055_imu_node" output="screen">
+    <!-- Jika perlu override serial port -->
+    <!-- <param name="port" value="/dev/ttyUSB1" /> -->
+  </node>
+</launch>
+<launch>
+  <node name="bno055_imu_node" pkg="bno055_imu" type="bno055_imu_node" output="$
+    <!-- Jika perlu override serial port -->
+    <!-- <param name="port" value="/dev/ttyUSB1" /> -->
+  </node>
+</launch>
+
+

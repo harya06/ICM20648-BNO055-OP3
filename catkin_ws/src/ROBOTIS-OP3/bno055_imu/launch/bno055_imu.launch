@@ -1,0 +1,4 @@
+<launch>
+  <node name="bno055_imu_node" pkg="bno055_imu" type="bno055_imu_node" output="screen"/>
+</launch>
+

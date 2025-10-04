@@ -1,0 +1,11 @@
+brightness: 179
+contrast: 201
+saturation: 150
+sharpness: 145
+gain: 212
+focus_auto: true
+focus_absolute: -1
+exposure_auto: 1
+exposure_absolute: 80
+white_balance_temperature_auto: true
+white_balance_temperature: 4000
