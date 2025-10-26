@@ -100,10 +100,10 @@
   "cc153912f1453b708d221682bc23d9ac")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<compass>)))
   "Returns full string definition for message of type '<compass>"
-  (cl:format cl:nil "float32 x~%float32 y~%float32 z~%~%"))
+  (cl:format cl:nil "float32 x~%float32 y~%float32 z~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'compass)))
   "Returns full string definition for message of type 'compass"
-  (cl:format cl:nil "float32 x~%float32 y~%float32 z~%~%"))
+  (cl:format cl:nil "float32 x~%float32 y~%float32 z~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <compass>))
   (cl:+ 0
      4

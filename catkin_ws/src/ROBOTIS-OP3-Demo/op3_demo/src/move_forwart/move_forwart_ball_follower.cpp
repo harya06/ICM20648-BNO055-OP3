@@ -147,7 +147,7 @@ namespace robotis_op
 
       // jalan maju lurus
       setWalkingParam(0.02, 0.0, -0.002, true);
-      usleep(13500000);
+      usleep(26000000);
 
       // //jalan mutar
       // setWalkingParam(-0.001, -0.020, 0.06, true);

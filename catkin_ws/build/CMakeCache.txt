@@ -851,12 +851,6 @@ pcl_ros_DIR:PATH=/opt/ros/kinetic/share/pcl_ros/cmake
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/kinetic/share/pluginlib/cmake
 
-//Value Computed by CMake
-ps_controller_BINARY_DIR:STATIC=/home/robotis/catkin_ws/build/ps_op3
-
-//Value Computed by CMake
-ps_controller_SOURCE_DIR:STATIC=/home/robotis/catkin_ws/src/ps_op3
-
 //The directory containing a CMake configuration file for qt_gui.
 qt_gui_DIR:PATH=/opt/ros/kinetic/share/qt_gui/cmake
 

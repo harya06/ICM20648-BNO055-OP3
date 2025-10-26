@@ -39,12 +39,12 @@ namespace robotis_op
         komunikasi_moveforwart(0),         // komunikasi
         desired_komunikasi_moveforwart(0), // komunikasi
         log_initialized_(false),
-        log_duration_sec_(61.0), // lama waktu log open cr
+        log_duration_sec_(1000.0), // lama waktu log open cr
         log_initialized_bno_(false),
-        log_duration_sec_bno_(61.0), // lama waktu log bno
+        log_duration_sec_bno_(1000.0), // lama waktu log bno
         start_time_bno_initialized_(false),
         log_initialized_gyro_(false),
-        log_duration_sec_gyro_(61.0), // lama waktu log gyro
+        log_duration_sec_gyro_(1000.0), // lama waktu log gyro
         start_time_gyro_initialized_(false)
   {
     // COMPASS

@@ -757,8 +757,8 @@ namespace robotis_op
   {
     setBodyModuleToDemo("walking_module");
     on_following_ball_ = true;
-    on_tracking_ball_ = false;
-    start_following_ = true;
+    on_tracking_ball_ = true;    //UNTUK SEARCHING BOLA
+    start_following_ = true;   //UNTUK MEMATIKAN JALAN
     ROS_INFO("Start Soccer Demo");
   }
 
@@ -772,7 +772,7 @@ namespace robotis_op
 
   void MoveForwartSide::handleKick(int ball_position)
   {
-    usleep(100);
+    usleep(1000000000);
 
     // change to motion module
     setModuleToDemo("action_module");
@@ -785,12 +785,12 @@ namespace robotis_op
     {
     case robotis_op::MoveForwartSideBallFollower::OnRight:
       std::cout << "Kick Motion [R]: " << ball_position << std::endl;
-      playMotion(is_grass_ ? RightKick + ForGrass : RightKick);
+      //playMotion(is_grass_ ? RightKick + ForGrass : RightKick);
       break;
 
     case robotis_op::MoveForwartSideBallFollower::OnLeft:
       std::cout << "Kick Motion [L]: " << ball_position << std::endl;
-      playMotion(is_grass_ ? LeftKick + ForGrass : LeftKick);
+      //playMotion(is_grass_ ? LeftKick + ForGrass : LeftKick);
       break;
 
     default:
@@ -813,7 +813,7 @@ namespace robotis_op
 
   void MoveForwartSide::handleKick()
   {
-    usleep(100);
+    usleep(10000000000);
 
     // change to motion module
     setModuleToDemo("action_module");
@@ -838,13 +838,13 @@ namespace robotis_op
     case robotis_op::MoveForwartSideBallFollower::OnRight:
       std::cout << "Kick Motion [R]: " << ball_position << std::endl;
       sendDebugTopic("Kick the ball using Right foot");
-      playMotion(is_grass_ ? RightKick + ForGrass : RightKick);
+      //playMotion(is_grass_ ? RightKick + ForGrass : RightKick);
       break;
 
     case robotis_op::MoveForwartSideBallFollower::OnLeft:
       std::cout << "Kick Motion [L]: " << ball_position << std::endl;
       sendDebugTopic("Kick the ball using Left foot");
-      playMotion(is_grass_ ? LeftKick + ForGrass : LeftKick);
+      //playMotion(is_grass_ ? LeftKick + ForGrass : LeftKick);
       break;
 
     default:

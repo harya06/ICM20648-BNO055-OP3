@@ -124,10 +124,10 @@
   "da3691d617cf6ed55be8bea5c4931fd8")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<SensorYPR>)))
   "Returns full string definition for message of type '<SensorYPR>"
-  (cl:format cl:nil "float64 pitch~%float64 roll~%float64 yaw~%~%"))
+  (cl:format cl:nil "float64 pitch~%float64 roll~%float64 yaw~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'SensorYPR)))
   "Returns full string definition for message of type 'SensorYPR"
-  (cl:format cl:nil "float64 pitch~%float64 roll~%float64 yaw~%~%"))
+  (cl:format cl:nil "float64 pitch~%float64 roll~%float64 yaw~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <SensorYPR>))
   (cl:+ 0
      8

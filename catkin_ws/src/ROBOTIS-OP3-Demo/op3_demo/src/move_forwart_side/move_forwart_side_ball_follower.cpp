@@ -146,18 +146,18 @@ namespace robotis_op
       curr_period_time_ = current_walking_param_.period_time;
 
       // jalan maju lurus
-      // setWalkingParam(0.02, 0.0, 0.0, true);
-      // usleep(20000000);
+      //setWalkingParam(0.02, 0.0, 0.0, true);
+      //usleep(23800000);
 
       // //jalan mutar
-      // setWalkingParam(-0.001, -0.020, 0.06, true);
-      // usleep(30000000);
+      //setWalkingParam(0.0, 0.0, 0.10, true);
+     // usleep(3800000);
 
       // jalan maju serong kanan
-      setWalkingParam(0.02, 0.0, -0.009, true);
-      usleep(31000000);
+      // setWalkingParam(0.02, 0.0, -0.009, true);
+      // usleep(31000000);
 
-      setWalkingCommand("stop");
+      //setWalkingCommand("stop");
     }
     else
     {
@@ -378,7 +378,7 @@ namespace robotis_op
       {
         setWalkingCommand("stop");
         on_tracking_ = false;
-        //        first_kick_ = false;       // buat dia menggiring taruh bool ini disini
+        first_kick_ = false;       // buat dia menggiring taruh bool ini disini
 
         // check direction of the ball
         //      accum_ball_position_ = std::accumulate(ball_position_queue_.begin(), ball_position_queue_.end(), 0);

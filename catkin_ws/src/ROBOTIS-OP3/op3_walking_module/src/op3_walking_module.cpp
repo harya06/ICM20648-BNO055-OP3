@@ -528,18 +528,16 @@ namespace robotis_op
 
       // sensoryFeedback(rl_gyro_err, fb_gyro_err, balance_angle);
 
-      // Publish nilai gyro
-      geometry_msgs::Vector3Stamped raw_gyro_msg;
-      raw_gyro_msg.header.stamp = ros::Time::now();
-      raw_gyro_msg.header.frame_id = "body_gyro_link";
+      // // Publish nilai gyro
+      // geometry_msgs::Vector3Stamped raw_gyro_msg;
+      // raw_gyro_msg.header.stamp = ros::Time::now();
+      // raw_gyro_msg.header.frame_id = "body_gyro_link";
 
-      raw_gyro_msg.vector.x = sensors["gyro_x"];
-      raw_gyro_msg.vector.y = sensors["gyro_y"];
-      raw_gyro_msg.vector.z = sensors["gyro_z"];
+      // raw_gyro_msg.vector.x = sensors["gyro_x"];
+      // raw_gyro_msg.vector.y = sensors["gyro_y"];
+      // raw_gyro_msg.vector.z = sensors["gyro_z"];
 
-      raw_gyro_pub_.publish(raw_gyro_msg);
-
-      // sensoryFeedback(rl_gyro_err, fb_gyro_err, balance_angle);
+      // raw_gyro_pub_.publish(raw_gyro_msg);
 
       // =================================================
 
@@ -552,7 +550,7 @@ namespace robotis_op
 
       ROS_INFO_STREAM("Error -> Roll: " << roll_error << ", Pitch: " << pitch_error);
 
-      // sensoryFeedback(roll_error, pitch_error, balance_angle);
+      sensoryFeedback(roll_error, pitch_error, balance_angle);
 
       geometry_msgs::Vector3Stamped rpy_bno_msg;
       rpy_bno_msg.header.stamp = ros::Time::now();
@@ -562,8 +560,6 @@ namespace robotis_op
       rpy_bno_msg.vector.z = current_body_yaw_;
 
       rpy_bno_pub_.publish(rpy_bno_msg);
-
-      sensoryFeedback(roll_error, pitch_error, balance_angle);
 
       // =================================================
 
